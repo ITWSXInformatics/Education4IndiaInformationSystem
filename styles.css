@@ -90,6 +90,8 @@ table{
 
 
 }
+
+
 tr{
   border-bottom: 1px solid #C4C4C4;
   text-align: left;
@@ -102,4 +104,11 @@ td{
 th{
   color: #C4C4C4;
   width: 25%;
+}
+
+.content{
+  margin-left: 230px;
+  margin-top: 60px;
+  font-size: 20px;
+  font-family: Lato;
 }
