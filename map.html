@@ -7,7 +7,12 @@
 	<link rel="stylesheet" href="styles.css">
 	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
+  <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
+  <script src="https://code.highcharts.com/mapdata/countries/in/in-all.js"></script>
+  <script src="map.js"></script>
 </head>
 <body>
 
@@ -33,7 +38,13 @@
     <div class="title">
        Dashboard - Map View
      </div>
-
+     <div class="content">
+      <button class="map_selector" id="gov_school_map">Government Schools</button>
+      <button class="map_selector" id="internet_map">Internet Subscriptions</button>
+      <button class="map_selector" id="literacy_map">Literacy Rates</button>
+      <div id="map_container">
+     </div>
+     </div>
   </div>
 
 </div>
